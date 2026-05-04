@@ -68,7 +68,7 @@
 
         .logo-b {
             width: 300px;
-            height: 150px;
+            height: 200px;
             background-color: transparent;
             margin: 20px auto;
             display: flex;
@@ -131,7 +131,7 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
-            padding-bottom: 18px;
+            padding-bottom: 25px;
         }
 
         .contact-item {
@@ -241,9 +241,7 @@
         </header>
 
         <main class="profile-section">
-          </br>
-            
-           
+          </br>          
             <ul class="contact-list">
                
                 <li>
@@ -297,7 +295,7 @@
             </ul>
         </main>
     </div> 
-
+ </br>   </br>   </br>   </br>   </br>   </br>   </br>   </br></br>   </br>   </br>   </br>   </br>   </br>   </br>   </br>
     <div class="fixed-action-container">
         <button class="btn-save" onclick="downloadVCard()">Save Contact</button>
     </div>
@@ -328,7 +326,9 @@ VERSION:3.0
 N:;${name};;;
 FN:${name}
 TEL;TYPE=CELL,VOICE:+962793588835
-URL:https://fiddy.github.io/DBC/blackfrog.html
+URL;TYPE=Instagram:https://www.instagram.com/blackfrogjo/
+URL;TYPE=Whatsapp:https://wa.me/+962793588835
+URL;TYPE=Contact:https://fiddy.github.io/DBC/blackfrog.html
 ${base64Image ? `PHOTO;TYPE=JPEG;ENCODING=b:${base64Image}` : ""}
 END:VCARD`;
 
